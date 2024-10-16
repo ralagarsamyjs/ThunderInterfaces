@@ -264,6 +264,7 @@ namespace Exchange {
         ID_DEVICE_CAPABILITIES_VIDEO                 = ID_DEVICE_INFO + 6,
         ID_DEVICE_CAPABILITIES_VIDEO_OUTPUT          = ID_DEVICE_INFO + 7,
         ID_DEVICE_CAPABILITIES_RESOLUTION            = ID_DEVICE_INFO + 8,
+        ID_FIRMWARE_VERSION                          = ID_DEVICE_INFO + 9,
 
         ID_DIALSERVER                                = 0x000003C0,
         ID_DIALSERVER_APPLICATION                    = ID_DIALSERVER + 1,
