@@ -349,17 +349,17 @@ namespace Exchange {
         ID_TEXT_TO_SPEECH                            = 0x000004F0,
         ID_TEXT_TO_SPEECH_NOTIFICATION               = ID_TEXT_TO_SPEECH + 1,
 
-        ID_AIRPLAY                                   = 0x000004F0,
+        ID_AIRPLAY                                   = 0x00000500,
         ID_AIRPLAY_NOTIFICATION                      = ID_AIRPLAY + 1,
         ID_AIRPLAYDAEMON                             = ID_AIRPLAY + 2,
         ID_AIRPLAYDAEMON_NOTIFICATION                = ID_AIRPLAY + 3,
         ID_HOMEKITTV                                 = ID_AIRPLAY + 4,
         ID_HOMEKITTV_NOTIFICATION                    = ID_AIRPLAY + 5,
 
-        ID_WATERMARK                                 = 0x00000500,
+        ID_WATERMARK                                 = 0x00000510,
         ID_WATERMARK_NOTIFICATION                    = ID_WATERMARK + 1,
 
-        ID_MIGRATION_PREPARER                        = 0x00000510,
+        ID_MIGRATION_PREPARER                        = 0x00000520,
         ID_MIGRATION_PREPARER_NOTIFICATION           = ID_MIGRATION_PREPARER + 1,
     };
 }
