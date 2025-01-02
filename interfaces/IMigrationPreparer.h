@@ -36,9 +36,9 @@ struct EXTERNAL IMigrationPreparer : virtual public Core::IUnknown {
     virtual uint32_t Register(Exchange::IMigrationPreparer::INotification *notification) = 0;
     virtual uint32_t Unregister(Exchange::IMigrationPreparer::INotification *notification) = 0;
     virtual uint32_t Write(const string &name, const string &value) = 0;
-    virtual uint32_t Read(const string& name, string &value) = 0;
+    virtual uint32_t Read(const string& name, string &value/* @out */) = 0;
     virtual uint32_t Delete(const string &name) = 0;
-    virtual uint32_t getComponentReadiness(RPC::IStringIterator*& compList) = 0;
+    virtual uint32_t getComponentReadiness(RPC::IStringIterator*& compList/* @out */) = 0;
     virtual uint32_t setComponentReadiness(const string &compName) = 0;
     virtual uint32_t reset(const string &type) = 0;
 };
